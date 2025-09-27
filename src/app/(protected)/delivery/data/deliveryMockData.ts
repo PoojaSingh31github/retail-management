@@ -1,11 +1,12 @@
-// data/deliveryMockData.ts
 export type AgentStatus = 'Available' | 'Busy';
 export type OrderStatus = 'CONFIRMED' | 'OUT_FOR_DELIVERY';
+
+export type MetricIcon = "clock" | "truck" | "users";
 
 export interface Metric {
   title: string;
   count: number;
-  icon: React.ReactNode;
+  icon: MetricIcon; 
   color: string;
 }
 
