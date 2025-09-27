@@ -1,5 +1,3 @@
-// import { OrderMetric, orderMetrics } from "@/app/order/data/ordersMockData";
-
 import { OrderMetric, orderMetrics } from "@/app/(protected)/order/data/ordersMockData";
 
 const MetricCard = ({ metric }: { metric: OrderMetric }) => {

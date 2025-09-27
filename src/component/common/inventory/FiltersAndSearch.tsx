@@ -1,4 +1,3 @@
-// components/inventory/FiltersAndSearch.tsx
 import { Search, Filter } from "lucide-react";
 
 const FilterDropdown = ({ title }: { title: string }) => (

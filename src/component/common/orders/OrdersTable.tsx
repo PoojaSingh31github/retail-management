@@ -1,7 +1,5 @@
-// components/orders/OrdersTable.tsx
-import { OrderStatus,Order } from "@/app/order/data/ordersMockData";
+import { OrderStatus,Order } from "@/app/(protected)/order/data/ordersMockData";
 import { MoreHorizontal, ArrowDownUp } from "lucide-react";
-// import { Order,  OrderStatus } from "";
 
 const StatusBadge = ({ status }: { status: OrderStatus }) => {
   const baseClasses = "px-3 py-1 text-xs rounded-full font-semibold";
